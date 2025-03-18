@@ -1,0 +1,8 @@
+.cover{
+    margin: 12px auto 0;
+    justify-content: center;
+    width: 92%;
+    height: auto;
+    border: 1px red solid;
+    position: relative;
+}
