@@ -4,12 +4,11 @@
     font-weight: 400;
     color: #fff;
     transition: opacity ease 350ms;
-    border: 1px solid red;
     text-decoration-thickness: 1px;
     text-underline-offset: 4px;
     z-index: 5;
 }
 
 .place__website__link:hover {
-    opacity: 0.4;
+    opacity: 0.8;
 }

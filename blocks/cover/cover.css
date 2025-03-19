@@ -1,8 +1,11 @@
 .cover{
     margin: 12px auto 0;
     justify-content: center;
-    width: 92%;
-    height: auto;
+    width: 93%;
     border: 1px red solid;
     position: relative;
+    background: url(../../../images/cover-trains.jpg) 0px 0px no-repeat;
+    background-size: cover; 
+    background-position: center;
+    height: 740px;
 }

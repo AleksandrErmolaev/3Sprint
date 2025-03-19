@@ -9,7 +9,7 @@
     transition: opacity ease 350ms;
 }
 .header__lang-link:hover{
-    opacity: 0.4;
+    opacity: 0.8;
 }
 
 @media screen and (max-width:767px){

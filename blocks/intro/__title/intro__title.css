@@ -4,4 +4,14 @@
     font-size: 54px;
     line-height: 58px;
     display: flex;
+    margin-top: 0;
+    font-family: 'Inter-Black', Arial, sans-serif; 
+}
+
+@media screen and (max-width: 767px) {
+    .intro__title{
+        font-size: 32px;
+        line-height: 35px;
+        max-width: 100%;
+    }
 }

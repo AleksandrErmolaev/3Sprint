@@ -2,5 +2,15 @@
     grid-row: 1;
     grid-column: 2;
     align-self: end;
-    border: 1px red solid;
+}
+
+
+@media screen and (max-width:767px) {
+    .place__website{
+        grid-row: 2;
+        grid-column: 1;
+        margin-left: 5%;
+        max-width: 90%;
+    }
+    
 }

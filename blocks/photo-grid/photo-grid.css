@@ -10,3 +10,29 @@
     justify-items: center;
     position: relative;
 }
+
+@media screen and (max-width: 1279px) {
+    .photo-grid{
+        max-width: 91%;
+        gap: 14px 14px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .photo-grid{
+        max-width: 94%;
+        gap: 16px 16px;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 88px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .photo-grid{
+        max-width: 90%;
+        row-gap: 12px;
+        grid-template-columns: 1fr;
+        margin-top: 64px;
+    }
+}

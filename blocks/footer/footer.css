@@ -1,7 +1,27 @@
-.footer{
-    margin-top: 94px;
-    margin-bottom: 24px;
-    margin-left: 4%;
+.footer {
+    width: 93%;
+    justify-content: space-between;
     display: flex;
-    position: relative;
+    align-items: center;
+    margin: auto;
+    margin-top: 92px;
+    padding-bottom: 24px;
+}
+
+@media (max-width: 1023px) {
+    .footer {
+        flex-direction: column;
+        text-align: start;
+        align-items: flex-start;
+        margin-top: 88px;
+    }
+}
+
+@media (max-width: 767px) {
+    .footer {
+        flex-direction: column;
+        text-align: start;
+        align-items: flex-start;
+        margin-top: 64px;
+    }
 }

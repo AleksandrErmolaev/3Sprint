@@ -5,4 +5,5 @@
     line-height: 168%;
     margin-top: 40px;
     display: flex;
+    max-width: 690px; 
 }
