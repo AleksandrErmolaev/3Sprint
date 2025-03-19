@@ -4,13 +4,12 @@
     display: flex;
     align-items: center;
     margin: auto;
+    margin-top: 92px;
+    margin-bottom: 24px;
 }
 
 @media (max-width: 1023px) {
     .footer {
-        flex-direction: column;
-        text-align: start;
-        align-items: flex-start;
         margin-top: 88px;
     }
 }
